@@ -1,0 +1,15 @@
+{
+  "name": "simple-adapter-pattern",
+  "version": "1.0.0",
+  "description": "Interactive Adapter Pattern example with power plugs",
+  "main": "dist/demo.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node dist/demo.js",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
