@@ -1,6 +1,4 @@
-// european-outlet.ts
-// This is what European outlets expect - 220V devices
-
+// src/models/europeanOutlet.ts
 export interface EuropeanDevice {
   plugIntoEuropeanOutlet(): string;
 }

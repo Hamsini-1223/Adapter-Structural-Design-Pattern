@@ -1,8 +1,6 @@
-// client.ts
-// A tourist traveling from US to Europe
-
-import { EuropeanOutlet } from "./european-outlet";
-import { EuropeanDevice } from "./european-outlet";
+// src/client.ts
+import { EuropeanOutlet } from "./models/europeanOutlet";
+import { EuropeanDevice } from "./models/europeanOutlet";
 
 export class Tourist {
   private name: string;
@@ -11,7 +9,6 @@ export class Tourist {
     this.name = name;
   }
 
-  // Tourist tries to use any European-compatible device
   useDevice(outlet: EuropeanOutlet, device: EuropeanDevice): void {
     console.log(`${this.name} is trying to use device...`);
     const result = outlet.connect(device);

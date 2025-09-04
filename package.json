@@ -1,7 +1,7 @@
 {
-  "name": "simple-adapter-pattern",
+  "name": "adapter-pattern-demo",
   "version": "1.0.0",
-  "description": "Interactive Adapter Pattern example with power plugs",
+  "description": "TypeScript implementation of the Adapter Design Pattern with interactive console demo",
   "main": "dist/demo.js",
   "scripts": {
     "build": "tsc",
