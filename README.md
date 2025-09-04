@@ -29,7 +29,7 @@ The Adapter Pattern allows objects with incompatible interfaces to collaborate. 
 │ └── errorHandler.ts
 ├── README.md
 ├── package.json
-├── tsconfig.json
+└── tsconfig.json
 
 ```
 
@@ -138,7 +138,3 @@ npm run clean
 ## Built by
 
 Ms Hamsini S
-
-```
-
-```
