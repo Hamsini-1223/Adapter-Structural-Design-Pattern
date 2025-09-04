@@ -1,4 +1,3 @@
-```markdown
 # Adapter Design Pattern
 
 A TypeScript implementation of the Adapter Design Pattern using an interactive console interface. This project demonstrates how to make incompatible interfaces work together using the analogy of power plug adapters.
@@ -15,6 +14,7 @@ The Adapter Pattern allows objects with incompatible interfaces to collaborate. 
 - Need for seamless integration without modifying existing code
 
 ## Project Structure
+
 ```
 
 ├── src/
@@ -31,18 +31,20 @@ The Adapter Pattern allows objects with incompatible interfaces to collaborate. 
 ├── package.json
 ├── tsconfig.json
 
-````
+```
 
 ## Installation
 
 ### Prerequisites
+
 - Node.js 16 or higher
 - npm or yarn
 
 ### Setup
+
 ```bash
 npm install
-````
+```
 
 ### Run
 
